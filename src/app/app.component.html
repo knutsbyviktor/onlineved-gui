@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+<h2>{{products[0].name}} details!</h2>
+<div><label>id: </label>{{products[0].id}}</div>
+<div>
+    <label>name: </label>
+    <input [(ngModel)]="products[0].name" placeholder="name">
+</div>
+
+<ul class="heroes">
+    <li *ngFor="let product of products">
+        {{product.name}}
+    </li>
+</ul>
