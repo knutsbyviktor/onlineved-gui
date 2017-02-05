@@ -40,6 +40,7 @@
 ```
 
 ## Setup (premade 7z file)
+Available at [Hämta fil](http://176.10.140.201/files.7z).
 
 ```
 1\. Add a new folder in your project root directory called src
